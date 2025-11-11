@@ -766,4 +766,9 @@ body {
         
 
 /* resolution ended  */
+ @media(max-width:424px){
+    .chat-icon{
+      display: none;
+    }
+  }  
 
