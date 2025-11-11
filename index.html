@@ -843,6 +843,27 @@
             </div>
         </div>
     </footer>
+    <div class="chat-wrapper" tabindex="0" aria-label="Chat widget">
+    <div class="chat-icon" aria-hidden="true">
+     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M46-46v-742q0-53 36.5-89.5T172-914h616q53 0 89.5 36.5T914-788v456q0 53-36.5 89.5T788-206H206L46-46Zm194-354h320v-80H240v80Zm0-120h480v-80H240v80Zm0-120h480v-80H240v80Z"/></svg>
+    </div>
+  
+    <div class="chat-panel" role="dialog" aria-hidden="true">
+      <div class="chat-header">Support</div>
+
+      <div class="chat-messages1" aria-live="polite">
+        <div class="message1 bot1">Hello</div>
+      </div>
+      <div class="chat-messages1" aria-live="polite">
+        <div class="message bot">How are you?</div>
+      </div>
+  
+      <form class="chat-input" onsubmit="return false;">
+        <input type="text" placeholder="Type a message..." aria-label="Message input" readonly />
+        <button type="button" disabled aria-disabled="true">Send</button>
+      </form>
+    </div>
+  </div> 
 </body>
 
 </html>
