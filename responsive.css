@@ -444,7 +444,7 @@ body {
       
       }
     .photo2-content{
-      padding: 80px;
+      /* padding: 80px; */
       display: flex;
       flex-direction: column;
     }
