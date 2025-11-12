@@ -820,4 +820,11 @@ body {
   }
 }
 /* resolution ended  */
+@media(max-width:360px){
+  .card-image img{
+    padding: 0 auto;
+    padding-right: 30px;
+  }
+}
+
 
