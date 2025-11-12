@@ -102,9 +102,9 @@ html {
 .second-navbar {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     gap: 1rem;
-    padding: 25px 2rem;
+    padding: 25px 4rem;
 
 }
 
