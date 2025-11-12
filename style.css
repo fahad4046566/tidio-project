@@ -1133,8 +1133,12 @@ width: 450px;
         .last-icon:hover {
             transform: translateY(-2px);
         }
+<<<<<<< HEAD
 
         .chat-wrapper {
+=======
+ .chat-wrapper {
+>>>>>>> c649c400e3878c3746dc0063ce8e9adc7552651d
     overflow: visible;
     position: fixed;
     bottom: 22px;
@@ -1288,7 +1292,11 @@ width: 450px;
   
   
   @media (max-width:420px) {
+<<<<<<< HEAD
     .chat-panel { width: 40vw; right: 0; left: 4vw; bottom: 90px; }
+=======
+    .chat-panel { width: 92vw; right: 0; left: 4vw; bottom: 90px; }
+>>>>>>> c649c400e3878c3746dc0063ce8e9adc7552651d
     .chat-input input { font-size: 15px; }
     .chat-icon { width: 56px; height: 56px; }
   }

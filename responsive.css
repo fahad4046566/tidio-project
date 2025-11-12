@@ -458,7 +458,11 @@ body {
       
       }
     .photo2-content{
+<<<<<<< HEAD
        padding: 80px 0; 
+=======
+      /* padding: 80px; */
+>>>>>>> c649c400e3878c3746dc0063ce8e9adc7552651d
       display: flex;
       flex-direction: column;
     }
@@ -820,4 +824,9 @@ body {
   }
 }
 /* resolution ended  */
+ @media(max-width:424px){
+    .chat-icon{
+      display: none;
+    }
+  }  
 
